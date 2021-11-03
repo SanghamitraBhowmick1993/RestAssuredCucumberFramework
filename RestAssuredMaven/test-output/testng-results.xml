@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3822" started-at="2021-10-26T14:11:43Z" finished-at="2021-10-26T14:11:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3822" started-at="2021-10-26T14:11:43Z" finished-at="2021-10-26T14:11:47Z">
+      <class name="com.qa.rest.test.DynamicJson">
+        <test-method status="PASS" signature="addBook(java.lang.String, java.lang.String)[pri:0, instance:com.qa.rest.test.DynamicJson@63d4e2ba]" name="addBook" duration-ms="3063" started-at="2021-10-26T19:41:43Z" data-provider="bookData" finished-at="2021-10-26T19:41:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bcddf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+        <test-method status="PASS" signature="addBook(java.lang.String, java.lang.String)[pri:0, instance:com.qa.rest.test.DynamicJson@63d4e2ba]" name="addBook" duration-ms="360" started-at="2021-10-26T19:41:46Z" data-provider="bookData" finished-at="2021-10-26T19:41:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bcddg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[235]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+        <test-method status="PASS" signature="addBook(java.lang.String, java.lang.String)[pri:0, instance:com.qa.rest.test.DynamicJson@63d4e2ba]" name="addBook" duration-ms="375" started-at="2021-10-26T19:41:47Z" data-provider="bookData" finished-at="2021-10-26T19:41:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bcddh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[236]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+      </class> <!-- com.qa.rest.test.DynamicJson -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
