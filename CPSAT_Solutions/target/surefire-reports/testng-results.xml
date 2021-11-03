@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="cpsat.Set1A_Test" duration-ms="4" started-at="2021-09-10T05:20:39Z" finished-at="2021-09-10T05:20:39Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="4" started-at="2021-09-10T05:20:39Z" finished-at="2021-09-10T05:20:39Z">
+    </test> <!-- Command line test -->
+  </suite> <!-- cpsat.Set1A_Test -->
+</testng-results>

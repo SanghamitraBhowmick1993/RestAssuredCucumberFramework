@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test name="Test">
+    <classes>
+    <class name="cpsat.Set1A_Test"/>
+<!--      <class name="mock.MockA_1"/>
+      <class name="cpsat.Set2A_3"/>
+      <class name="cpsat.Set2B_2"/>
+      <class name="cpsat.Set2A_4"/>
+      <class name="cpsat.Set2B_3"/>
+      <class name="cpsat.Set2A_1"/>
+      <class name="cpsat.Set2B_1"/>
+      <class name="cpsat.Set2A_5"/>
+      <class name="cpsat.Set2B_4"/>
+      <class name="cpsat.Set2A_6"/>
+      <class name="cpsat.Set4_5"/>
+      <class name="cpsat.Set5_4"/>
+      <class name="cpsat.Set6_3"/>
+      <class name="cpsat.Set6_2"/>
+      <class name="cpsat.Set7_1"/>
+      <class name="cpsat.Set4_4"/>
+      <class name="cpsat.Set3_4"/>
+      <class name="cpsat.Set4_3"/>
+      <class name="cpsat.Set5_2"/>
+      <class name="cpsat.Set6_1"/>
+      <class name="cpsat.Set5_1"/>
+      <class name="cpsat.Set3_3"/>
+      <class name="cpsat.Set3_2"/>
+      <class name="cpsat.Set4_1"/>
+      <class name="cpsat.Set3_1"/>
+      <class name="cpsat.Set1A_1"/>
+      <class name="cpsat.Set1A_3"/>
+      <class name="cpsat.Set1B_2"/>
+      <class name="cpsat.Set1B_1"/>
+      <class name="cpsat.Set1A_2"/>
+      <class name="cpsat.Set1B_4"/>
+      <class name="cpsat.Set1B_3"/>
+      <class name="cpsat.Set1A_4"/>
+      <class name="cpsat.Set6_5"/>
+      <class name="cpsat.Set4_6"/>
+      <class name="cpsat.Set5_5"/> --> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
