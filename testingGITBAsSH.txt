@@ -1,0 +1,66 @@
+code in local repo- create a folder
+
+Initilize it as git repo 
+- git init
+Staging- commit1 , Commit- commit2
+- git add * [for all files]
+- git status
+- git commit -m "test"
+- git remote add origin https://github.com/SanghamitraBhowmick1993/RestAssuredCucumberFramework.git
+- git push origin master
+
+
+To clone existing project for the first time:
+
+- git clone <repo_name>
+- import project to eclipse
+- make changes, then git add * [all files to stg]
+- git status
+- git commit -m "<commit message>"
+- git push origin master
+
+
+To take latest code/latest changes in machine:
+
+- git pull origin master
+After making modifications,
+- git status
+- git add *
+- git commit -m <"comments">
+- git push origin master
+
+
+Branches [Person1]
+- git checkout -b <name of branch[develop]> [create a new branch]
+- git branch
+- git add *
+- git commit -m <"message">
+- git push origin develop
+
+Branches [Person2]
+- git pull origin develop
+- git checkout develop [switch to new branch]
+
+
+Merge branch to master
+- git checkout master
+- git pull origin master
+- git merge develop
+
+Merge conflicts:
+Person X - working on master on a file [origin file]
+Person Y - working on branch on same file [origin file]
+
+Person X makes changes in [origin file1] in master
+Person Y - working on branch on same file [origin file] - wants to merge master
+
+
+
+
+
+
+
+
+
+
+
