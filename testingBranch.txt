@@ -1,0 +1,8 @@
+GIT commands to merge master changes to your branch:
+Clone the repo (branch) using gitbash --> git clone <path>
+making sure you are in the branch,
+--> git checkout <CPQ,branch name>
+-->git merge master
+-->ls
+-->git push origin CPQ
+

@@ -1,4 +1,4 @@
-package JavaQuestionPart2;
+package JavaQuestionsPart3;
 
 public class StringtoInteger {
 

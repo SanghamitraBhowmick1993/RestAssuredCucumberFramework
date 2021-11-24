@@ -1,4 +1,4 @@
-package JavaQuestionPart2;
+package JavaQuestionsPart3;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
