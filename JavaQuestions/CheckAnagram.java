@@ -29,5 +29,39 @@ public class CheckAnagram {
 
 		}
 	}
+	
+	//Approach2
+	String s1= "mary";
+		String s2 ="army";
+		char c1[]=s1.toCharArray();
+		char c2[]=s2.toCharArray();
+
+		
+		Map<Character,Integer> charMap= new HashMap<>();
+		for(char ch : c1) {
+			if(charMap.containsKey(ch)) {
+				charMap.put(ch, charMap.get(ch)+1);
+			
+			}
+			else {
+				charMap.put(ch, 1);
+			}
+		}
+		for(char ch : c2) {
+			if(charMap.get(ch)==1) {
+				charMap.remove(ch);
+			}
+			else {
+				charMap.put(ch, charMap.get(ch)-1);
+				ch--;
+			}
+		}
+		if(charMap.size()==0) {
+			System.out.println("Strings are anagram");
+		}
+		else {
+			System.out.println("Strings are not anagram");
+		}
+	}
 
 }
