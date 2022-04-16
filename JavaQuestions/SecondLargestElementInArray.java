@@ -35,5 +35,26 @@ public class SecondLargestElementInArray {
 		System.out.println(Arrays.toString(input));
 		System.out.println("Second largest ele is : " + secondLargest);
 	}
+	
+	
+	//Approach2
+	int arr[]= {10, 20, 25, 63, 96, 57};
+		int temp;
+	      int size = arr.length;
+
+		
+		for(int i=0;i<size;i++) {
+			for(int j=i+1;j<size;j++) {
+				if(arr[i]>arr[j]) {
+					temp=arr[i];
+					arr[i]=arr[j];
+					arr[j]=temp;
+				}
+			}
+			
+		}
+		
+		System.out.println("second largest : " + arr[size-2]);
+	}
 
 }
