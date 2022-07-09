@@ -1,0 +1,39 @@
+package com.backend.tests;
+
+import java.util.List;
+import java.util.Map;
+
+import org.json.simple.parser.ParseException;
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.http.Method;
+import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+
+public class GetCallParseResponse {
+
+	@Test
+	public void GetBooksDetails() throws ParseException {
+		RestAssured.baseURI = "https://demoqa.com/BookStore/v1/Books";
+		RequestSpecification httpRequest = RestAssured.given();
+		Response response = httpRequest.request(Method.GET);
+
+		// https://jsonplaceholder.typicode.com/users/1
+		String jsonResponseEntire = response.jsonPath().getString("books");
+		System.out.println(jsonResponseEntire);
+
+		String jsonResponseZeroIndex = response.jsonPath().getString("books[0]");
+		System.out.println(jsonResponseZeroIndex);
+
+		// https://jsonplaceholder.typicode.com/users/
+		Map<String, String> company = response.jsonPath().getMap("books[0]");
+		System.out.println(company.get("title"));
+
+		List<Map<String, String>> companies = response.jsonPath().getList("books");
+		System.out.println(companies.get(1).get("title"));
+
+
+
+	}
+}
